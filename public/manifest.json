@@ -1,0 +1,16 @@
+{
+    "name": "Boilerplate NextJS",
+    "short_name": "Boilerplate",
+    "icons": [
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "background_color": "#000",
+    "description": "Boilerplate NextJS",
+    "display": "fullscreen",
+    "start_url": "/",
+    "theme_color": "#000"
+}
