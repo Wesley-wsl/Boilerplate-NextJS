@@ -1,13 +1,9 @@
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 
-interface NextSEO {
-    title: string;
-    description: string;
-    children: JSX.Element;
-}
+import { INextSEO } from "../../@types";
 
-export function NextSEO({ title, description, children }: NextSEO) {
+export function NextSEO({ title, description, children }: INextSEO) {
     const { pathname } = useRouter();
     const url = `http://localhost:3000${pathname}`;
     return (
