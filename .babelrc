@@ -5,7 +5,8 @@
             {
                 "ssr": false
             }
-        ]
+        ],
+        "inline-react-svg"
     ],
     "presets": ["next/babel", "@babel/preset-typescript"]
 }
